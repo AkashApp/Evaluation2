@@ -4,7 +4,7 @@ import { Rentals } from "./Components/Rentals/Rentals";
 import { AddHouse } from "./Components/AddHouse/AddHouse";
 
 function App() {
-  const [show, setShow]= useState(true);
+  const [show, setShow]= useState(false);
   return (
     <div className="App">
       <button className="toggleForm" onClick={()=>{
@@ -21,7 +21,7 @@ function App() {
         {show?"Hide":"Show"}
       </button>
       {show?<AddHouse/>:""}
-      {show?<Rentals/>:""}
+      {show?"":<Rentals/>}
       
         
       {/* Show component based on state */}

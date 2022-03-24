@@ -58,6 +58,7 @@ export const Rentals = () => {
                 <td className="houseImage">
                   <img src={house.Image} alt="house" />
                 </td>
+                {console.log(house)}
               </tr>
             );
           })}

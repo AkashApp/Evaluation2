@@ -1,0 +1,13 @@
+{
+  "houses": [
+    {
+      "Name": "Akash",
+      "OwnerName": "Akash",
+      "Address": "111,karanje",
+      "ArearCode": "415002",
+      "Rent": "5000",
+      "Image": "http://localhost:8080/houses",
+      "id": 1
+    }
+  ]
+}
